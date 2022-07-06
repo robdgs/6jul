@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+ul li {
+  display: block;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+ol {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+ol li {
+  display: inline-block;
+}
+
+.pagination button {
+  background: gray;
+  color: white;
+  border-radius: 100%;
+  border: none;
+}
+.pagination button:hover {
+  background: rgb(202, 121, 202);
+}
+.salmon {
+  display: block;
+  max-width: 10rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.shop {
+  padding-bottom: 2rem;
+}
